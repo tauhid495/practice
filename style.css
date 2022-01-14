@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+/* common style */
+*{
+margin-top: 0;
+font-family: 'Oxygen', sans-serif;
+}
+:root{
+    --main-color: #aedd03;
+    --icon: gray;
+}
+body{
+    color: rgb(53, 53, 53);
+}
+/* header style  */
+.header{
+    max-width: 1200px;
+}
+.container{
+    background-image: url(./image/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5.5%;
+    padding-top: 5%;
+    margin-bottom: 6%;
+}
+
+.circle{
+    border: 40px solid var(--main-color);
+    height: 0px;
+    width: 0px;
+    border-radius: 50%;
+    margin-bottom: 3%;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    text-decoration: underline;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+.articles{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly; 
+    align-items: center;
+}
+.icon{
+    font-size: 3.8em;
+    color: var(--icon);
+    margin-bottom: 10px;
+}
+.article-head{
+    text-transform: uppercase;
+}
+.article{
+    background-color: var(--main-color);
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: up;
+}
+/* service sectionn */
+#sec-2{
+    background-color: #313131;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    font-size: 4em;
+    color: var(--main-color);
+    padding-top: 8%;
+    padding-left: 6%;
+    text-transform: capitalize;
+}
+.h3-service{
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.icon-2{
+    color: var(--main-color) ;
+    font-size: 3em;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.service{
+    margin-left: 6%;
+
+}
+.bus{
+    margin-right: 15%;
+    width: 70vh;
+}
+
+/* nav style  */
+nav{
+    height: 80px;
+    background-color: #313131;
+    width: auto;
+}
+.logo img{
+    height: 100%;
+}
